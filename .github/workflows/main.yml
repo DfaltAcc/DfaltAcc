@@ -1,0 +1,54 @@
+# GitHub Action for generating a contribution graph with a snake eating your contributions.
+name: Generate Snake
+
+# Controls when the action will run.
+on:
+  schedule:
+    # every 12 hours
+    - cron: "0 */12 * * *"
+  
+  # This command allows us to run the Action automatically from the Actions tab.
+  workflow_dispatch:
+
+  # Also run on every push on the master branch
+  push:
+    branches:
+      - main # or master, depending on your default branch name
+
+# The sequence of runs in this workflow
+jobs:
+  # This workflow contains a single job called "Build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Clone repo
+        uses: actions/checkout@v3 # The video might show an older version, v3 is current
+
+      # Generates the snake files in './dist/' directory
+      - name: Generate the snake files in './dist/'
+        uses: Platane/snk@v3 # The video shows v2, v3 is the latest stable
+        id: snake-gif # id for referring to the outputs
+        with:
+          github_user_name: ${{ github.repository_owner }} # Automatically gets your username
+          # list of files to generate.
+          # the SVG path is relative to the output directory, make sure it starts with `dist`
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfdff,#bfdff,#64a1f4,#9191f4,#c7c7df
+
+      - name: Show build status
+        run: git status
+
+      # Push the new files to the output branch
+      - name: Push new files to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0 # Video might show older, this is a common one
+        with:
+          target_branch: output # Branch to push to
+          build_dir: dist # Directory to push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required for pushing to the repo
