@@ -9,24 +9,20 @@
 
 <!-- Lines 11-21: Customized Description Section -->
 <h3 align="center">A passionate software developer from South Africa 🇿🇦</h3>
-<h4 align="center">Student at Cape Peninsula University of Technology</h4>
+<h4 align="center">I'm a student at Cape Peninsula University of Technology currently studying Information Communication Technology in Applications Development</h4>
 
 <br/>
 
 <div align="center">
-  🔭 I’m currently working on **an E-commerce app**
+  I’m currently working on a E-commerce app
   <br/>
-  🌱 I’m currently learning **[You can add what you're currently learning here, e.g., Advanced React patterns, DevOps practices, etc.]**
+  Ask me about MongoDB, Postman, React, Linux, Python, Node.js, HTML, CSS, jQuery, SQL
   <br/>
-  💬 Ask me about **MongoDB, Postman, React, Linux, Python, Node.js, HTML, CSS, jQuery, SQL...** or anything [here](https://github.com/DfaltAcc/DfaltAcc/issues)!
-  <br/>
-  🔥 Fun fact **[Add your fun fact here!]**
-  <br/>
-</div>
+  </div>
 
 <!-- Lines 23-33: Customized Socials Section -->
 <div align="center">
-  <a href="mailto:your.email@example.com"> <!-- <<<===== REPLACE THIS WITH YOUR ACTUAL EMAIL -->
+  <a href="www.madlingozihlumelo@gmail.com"> <!-- <<<===== REPLACE THIS WITH YOUR ACTUAL EMAIL -->
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://www.linkedin.com/in/hlumelo-madlingozi-97a889234" target="_blank">
