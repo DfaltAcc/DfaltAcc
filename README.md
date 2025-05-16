@@ -36,7 +36,7 @@
 <hr/>
 
 <!-- Lines 37-42: Customized Tools Section -->
-<h2 align="center">🛠 Tech Stack 🛠</h2>
+<h2 align="center"> Tech Stack </h2>
 <br/>
 <div align="center">
     <a href="https://skillicons.dev">
