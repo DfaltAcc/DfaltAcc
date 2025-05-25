@@ -1,4 +1,4 @@
-![image alt](https://github.com/DfaltAcc/)
+![image alt](https://github.com/DfaltAcc/DfaltAcc/blob/main/Hlumelo_%20Madlingozi_CV_page-0001.jpg)
 
 ## **SITUATION**
 As a final-year Diploma ICT student at Cape Peninsula University of Technology, I needed to create a professional CV that would effectively showcase my technical skills, work experience, and academic achievements to potential employers in the competitive ICT industry. The challenge was that my existing CV was basic and didn't effectively communicate the impact of my work experience at Plum Systems or highlight my achievements in a way that would stand out to recruiters. With graduation approaching in April 2026, I recognized that having a compelling CV was crucial for securing employment opportunities in software development and related ICT fields.
