@@ -1,3 +1,4 @@
+![image alt](https://github.com/DfaltAcc/DfaltAcc/blob/de24caedb8b9df60f259f16049bac057d68be957/Screenshot%20(196).png)
 # Skills and Interests - STAR Method Reflection
 
 ## **SITUATION**
