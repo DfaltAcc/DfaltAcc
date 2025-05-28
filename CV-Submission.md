@@ -1,3 +1,4 @@
+![image alt](https://github.com/DfaltAcc/DfaltAcc/blob/f281392559ee69898e7ececf62f606594ef403da/Screenshot%20(199).png)
 # CV Submission - STAR Method Reflection
 
 ## **SITUATION**
